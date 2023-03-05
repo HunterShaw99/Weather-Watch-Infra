@@ -1,2 +1,4 @@
 # Ignore Secrets
 src/.env
+
+src/__pycache__

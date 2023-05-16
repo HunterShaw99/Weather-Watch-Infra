@@ -1,5 +1,5 @@
 # Ignore Secrets
-src/.env
+.env
 
 src/__pycache__
 

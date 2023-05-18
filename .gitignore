@@ -2,5 +2,6 @@
 .env
 
 src/__pycache__
-src\bridge\__pycache__\
 .vscode
+src/bridge/__pycache__
+

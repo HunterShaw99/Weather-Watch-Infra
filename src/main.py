@@ -21,6 +21,6 @@ async def get_current_forecast(lat: str | None = None, lon: str | None = None, z
 
 
 @app.get("/get/air_quality")
-async def get_current_aqi() -> dict:
-    res = await request_aqi()
+async def get_current_aqi(lat:str|None=None, lon:str|None=None, zip_code:int|None=None) -> dict:
+    res = await request_aqi(lat, lon, zip_code)
     return res

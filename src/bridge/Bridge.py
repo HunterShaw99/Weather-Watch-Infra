@@ -21,7 +21,7 @@ async def request_forecast(lat=None, lon=None, zip_code=None):
         return task.json()
 
 
-async def request_aqi():
+async def request_aqi(lat=None, lon=None, zip_code=None):
     async with httpx.AsyncClient() as client:
         url = f'http://api.openweathermap.org/data/2.5/air_pollution?lat=50&lon=50&appid={api_key}'
         task = await client.get(url)

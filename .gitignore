@@ -2,5 +2,9 @@
 .env
 
 src/__pycache__
-
 .vscode
+
+src/app/__pycache__/
+src/app/bridge/__pycache__/
+src/app/routers/__pycache__/
+
